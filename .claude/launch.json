@@ -1,0 +1,53 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "partyrank-next",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "port": 3000,
+      "autoPort": true
+    },
+    {
+      "name": "mocidade-unida-next",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "/Users/davifalanga/Downloads/mocidade-unida-next", "run", "dev", "--", "--port", "3101"],
+      "port": 3101,
+      "autoPort": true
+    },
+    {
+      "name": "mocidade-site-next",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "/Users/davifalanga/Downloads/mocidade-site-next", "run", "dev", "--", "--port", "3102"],
+      "port": 3102,
+      "autoPort": true
+    },
+    {
+      "name": "mocidade-site",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["-y", "http-server", "/Users/davifalanga/Downloads/mocidade-site", "-p", "3103", "-c-1"],
+      "port": 3103,
+      "autoPort": true
+    },
+    {
+      "name": "project-sites",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["-C", "/Users/davifalanga/Documents/PROJECT-SITES", "dev", "--port", "3104"],
+      "port": 3104,
+      "autoPort": true
+    },
+    {
+      "name": "treino-real",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "/Users/davifalanga/Downloads/treino-real", "run", "dev", "--", "--port", "3105"],
+      "port": 3105,
+      "autoPort": true
+    },
+    {
+      "name": "downloads",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["-y", "http-server", "/Users/davifalanga/Downloads", "-p", "8137", "-c-1"],
+      "port": 8137
+    }
+  ]
+}
