@@ -14,6 +14,7 @@ Cada ideia é um arquivo numerado. Ordem do número = ordem em que foi anotada, 
 
 | # | Ideia | Status |
 |---|-------|--------|
+| 00 | [**Inbox** — bloco de notas corrido](00-inbox.md) | aberto |
 | 01 | [Prêmio anual para top do ranking](01-premios-ranking.md) | rascunho |
 | 02 | [Placar das Ligas (rivalidade institucional)](02-placar-institucional.md) | aprovada |
 | 03 | [Hall da Fama](03-hall-da-fama.md) | aprovada — adiada |
